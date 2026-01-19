@@ -34,10 +34,6 @@ This approach keeps the logic deterministic, cost-efficient, and stable for v1. 
 
 The script generates a CSV containing:
 
-Business name
-
-Category / business type
-
 Business Name,	Business Status,	Rating,	Rating Count,	Business Type,	Google Place URL,	Phone Number,	Website,	Address,	distanceInMiles,	duration,	placeId
 
 # Notes
