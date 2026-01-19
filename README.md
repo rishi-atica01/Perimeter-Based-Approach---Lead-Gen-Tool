@@ -4,7 +4,7 @@ This repository contains a Python reference implementation for a perimeter-based
 
 The code is intended as a logic reference to be translated and integrated into the production Java codebase.
 
-High-Level Approach
+# High-Level Approach
 
 Perimeter-based search using 5 centers (property center + North, South, East, West)
 
@@ -16,7 +16,7 @@ Filters leads within the selected radius
 
 Sorts results by estimated driving distance
 
-Distance & Duration Calculation
+# Distance & Duration Calculation
 
 The current implementation does not use the Google Distance Matrix API.
 
@@ -30,7 +30,7 @@ Configurable road buffer factor to account for road detours
 
 This approach keeps the logic deterministic, cost-efficient, and stable for v1. Distance Matrix API integration can be added later if higher routing accuracy is required.
 
-Output
+# Output
 
 The script generates a CSV containing:
 
@@ -40,7 +40,7 @@ Category / business type
 
 Business Name,	Business Status,	Rating,	Rating Count,	Business Type,	Google Place URL,	Phone Number,	Website,	Address,	distanceInMiles,	duration,	placeId
 
-Notes
+# Notes
 
 This is a reference implementation, not production code
 
