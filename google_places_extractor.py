@@ -3,7 +3,7 @@ import json
 import math
 import pandas as pd
 
-API_KEY = "AIzaSyAt4l5Fz_YUkhuhhJS7cXtb-oApW4TimIc"
+API_KEY = ""
 
 # Input configuration
 center_lat = 34.849303            # Center latitude
@@ -167,4 +167,5 @@ try:
     print("Results saved to output.csv")
 except PermissionError as e:
     print(f"Permission error saving output.csv: {e}")
+
 
